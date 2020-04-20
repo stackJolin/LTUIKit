@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - LTUIKit (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - LTUIKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  LTUIKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  LTUIKit: 440cf7a1b8cc24b02c86641eca37d380e2d00ab8
+
+PODFILE CHECKSUM: 596aad59484f77812b509d7e7550e762049e2787
+
+COCOAPODS: 1.8.3

@@ -1,0 +1,6 @@
+framework module LTUIKit {
+  umbrella header "LTUIKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
